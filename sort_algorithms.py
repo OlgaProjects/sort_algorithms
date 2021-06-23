@@ -42,7 +42,7 @@ def test_sort(sort_algorithm):
     A_sorted = [1, 2, 2, 4, 4]
     sort_algorithm(A)
     print("Ok" if A == A_sorted else "Fail")
-
+# init
 if __name__ == "__main__":
     test_sort(insert_sort)
     test_sort(choise_sort)
